@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE682CD523864376002B9454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CD423864376002B9454 /* AppDelegate.m */; };
+		BE682CD823864376002B9454 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CD723864376002B9454 /* SceneDelegate.m */; };
+		BE682CDB23864376002B9454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CDA23864376002B9454 /* ViewController.m */; };
+		BE682CE023864377002B9454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE682CDF23864377002B9454 /* Assets.xcassets */; };
+		BE682CE323864377002B9454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE682CE123864377002B9454 /* LaunchScreen.storyboard */; };
+		BE682CE623864377002B9454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CE523864377002B9454 /* main.m */; };
+		BE682CED23864459002B9454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE682CEC23864459002B9454 /* Main.storyboard */; };
+		BE682CF423864559002B9454 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CF223864559002B9454 /* BaseViewModel.m */; };
+		BE682CF7238645DF002B9454 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CF6238645DF002B9454 /* BaseCollectionViewCell.m */; };
+		BE682CFC23864719002B9454 /* BaseCollectionViewHeader..m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CFB23864719002B9454 /* BaseCollectionViewHeader..m */; };
+		BE682CFF23864920002B9454 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682CFE23864920002B9454 /* BaseTableViewCell.m */; };
+		BE682D02238663EB002B9454 /* BaseTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682D01238663EB002B9454 /* BaseTableViewHeader.m */; };
+		BE682D05238665F6002B9454 /* ACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682D04238665F6002B9454 /* ACollectionViewCell.m */; };
+		BE682D08238665FE002B9454 /* BCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682D07238665FE002B9454 /* BCollectionViewCell.m */; };
+		BE682D0B23866624002B9454 /* AViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682D0A23866624002B9454 /* AViewModel.m */; };
+		BE682D0E2386662D002B9454 /* BViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682D0D2386662D002B9454 /* BViewModel.m */; };
+		BE682D15238672EE002B9454 /* ACollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682D14238672EE002B9454 /* ACollectionReusableView.m */; };
+		BE682D18238672F9002B9454 /* BCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE682D17238672F9002B9454 /* BCollectionReusableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE682CD023864376002B9454 /* FactoryListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE682CD323864376002B9454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE682CD423864376002B9454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE682CD623864376002B9454 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BE682CD723864376002B9454 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BE682CD923864376002B9454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE682CDA23864376002B9454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE682CDF23864377002B9454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE682CE223864377002B9454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE682CE423864377002B9454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE682CE523864377002B9454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE682CEC23864459002B9454 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BE682CF223864559002B9454 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		BE682CF323864559002B9454 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		BE682CF5238645DF002B9454 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		BE682CF6238645DF002B9454 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		BE682CF82386467E002B9454 /* CollectionViewHeaderClickDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewHeaderClickDelegate.h; sourceTree = "<group>"; };
+		BE682CF92386467E002B9454 /* CollectionViewCellClickDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCellClickDelegate.h; sourceTree = "<group>"; };
+		BE682CFA23864719002B9454 /* BaseCollectionViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewHeader.h; sourceTree = "<group>"; };
+		BE682CFB23864719002B9454 /* BaseCollectionViewHeader..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewHeader..m; sourceTree = "<group>"; };
+		BE682CFD23864920002B9454 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		BE682CFE23864920002B9454 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		BE682D00238663EB002B9454 /* BaseTableViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewHeader.h; sourceTree = "<group>"; };
+		BE682D01238663EB002B9454 /* BaseTableViewHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewHeader.m; sourceTree = "<group>"; };
+		BE682D03238665F6002B9454 /* ACollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACollectionViewCell.h; sourceTree = "<group>"; };
+		BE682D04238665F6002B9454 /* ACollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACollectionViewCell.m; sourceTree = "<group>"; };
+		BE682D06238665FE002B9454 /* BCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCollectionViewCell.h; sourceTree = "<group>"; };
+		BE682D07238665FE002B9454 /* BCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCollectionViewCell.m; sourceTree = "<group>"; };
+		BE682D0923866624002B9454 /* AViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewModel.h; sourceTree = "<group>"; };
+		BE682D0A23866624002B9454 /* AViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewModel.m; sourceTree = "<group>"; };
+		BE682D0C2386662D002B9454 /* BViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewModel.h; sourceTree = "<group>"; };
+		BE682D0D2386662D002B9454 /* BViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewModel.m; sourceTree = "<group>"; };
+		BE682D0F238668E0002B9454 /* TableViewCellClickDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellClickDelegate.h; sourceTree = "<group>"; };
+		BE682D122386727E002B9454 /* TableViewHeaderClickDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderClickDelegate.h; sourceTree = "<group>"; };
+		BE682D13238672EE002B9454 /* ACollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACollectionReusableView.h; sourceTree = "<group>"; };
+		BE682D14238672EE002B9454 /* ACollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACollectionReusableView.m; sourceTree = "<group>"; };
+		BE682D16238672F9002B9454 /* BCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCollectionReusableView.h; sourceTree = "<group>"; };
+		BE682D17238672F9002B9454 /* BCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCollectionReusableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE682CCD23864376002B9454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE682CC723864376002B9454 = {
+			isa = PBXGroup;
+			children = (
+				BE682CD223864376002B9454 /* FactoryListView */,
+				BE682CD123864376002B9454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE682CD123864376002B9454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE682CD023864376002B9454 /* FactoryListView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE682CD223864376002B9454 /* FactoryListView */ = {
+			isa = PBXGroup;
+			children = (
+				BE682CEE23864518002B9454 /* Factory */,
+				BE682CD323864376002B9454 /* AppDelegate.h */,
+				BE682CD423864376002B9454 /* AppDelegate.m */,
+				BE682CD623864376002B9454 /* SceneDelegate.h */,
+				BE682CD723864376002B9454 /* SceneDelegate.m */,
+				BE682D192386A1FC002B9454 /* Example */,
+				BE682CD923864376002B9454 /* ViewController.h */,
+				BE682CDA23864376002B9454 /* ViewController.m */,
+				BE682CDF23864377002B9454 /* Assets.xcassets */,
+				BE682CEC23864459002B9454 /* Main.storyboard */,
+				BE682CE123864377002B9454 /* LaunchScreen.storyboard */,
+				BE682CE423864377002B9454 /* Info.plist */,
+				BE682CE523864377002B9454 /* main.m */,
+			);
+			path = FactoryListView;
+			sourceTree = "<group>";
+		};
+		BE682CEE23864518002B9454 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				BE682D112386720F002B9454 /* TableView */,
+				BE682D10238671FB002B9454 /* CollectionView */,
+				BE682CF323864559002B9454 /* BaseViewModel.h */,
+				BE682CF223864559002B9454 /* BaseViewModel.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		BE682D10238671FB002B9454 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BE682CF92386467E002B9454 /* CollectionViewCellClickDelegate.h */,
+				BE682CF82386467E002B9454 /* CollectionViewHeaderClickDelegate.h */,
+				BE682CF5238645DF002B9454 /* BaseCollectionViewCell.h */,
+				BE682CF6238645DF002B9454 /* BaseCollectionViewCell.m */,
+				BE682CFA23864719002B9454 /* BaseCollectionViewHeader.h */,
+				BE682CFB23864719002B9454 /* BaseCollectionViewHeader..m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		BE682D112386720F002B9454 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				BE682D0F238668E0002B9454 /* TableViewCellClickDelegate.h */,
+				BE682D122386727E002B9454 /* TableViewHeaderClickDelegate.h */,
+				BE682CFD23864920002B9454 /* BaseTableViewCell.h */,
+				BE682CFE23864920002B9454 /* BaseTableViewCell.m */,
+				BE682D00238663EB002B9454 /* BaseTableViewHeader.h */,
+				BE682D01238663EB002B9454 /* BaseTableViewHeader.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		BE682D192386A1FC002B9454 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				BE682D03238665F6002B9454 /* ACollectionViewCell.h */,
+				BE682D04238665F6002B9454 /* ACollectionViewCell.m */,
+				BE682D06238665FE002B9454 /* BCollectionViewCell.h */,
+				BE682D07238665FE002B9454 /* BCollectionViewCell.m */,
+				BE682D0923866624002B9454 /* AViewModel.h */,
+				BE682D0A23866624002B9454 /* AViewModel.m */,
+				BE682D0C2386662D002B9454 /* BViewModel.h */,
+				BE682D0D2386662D002B9454 /* BViewModel.m */,
+				BE682D13238672EE002B9454 /* ACollectionReusableView.h */,
+				BE682D14238672EE002B9454 /* ACollectionReusableView.m */,
+				BE682D16238672F9002B9454 /* BCollectionReusableView.h */,
+				BE682D17238672F9002B9454 /* BCollectionReusableView.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE682CCF23864376002B9454 /* FactoryListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE682CE923864377002B9454 /* Build configuration list for PBXNativeTarget "FactoryListView" */;
+			buildPhases = (
+				BE682CCC23864376002B9454 /* Sources */,
+				BE682CCD23864376002B9454 /* Frameworks */,
+				BE682CCE23864376002B9454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryListView;
+			productName = FactoryListView;
+			productReference = BE682CD023864376002B9454 /* FactoryListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE682CC823864376002B9454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = william;
+				TargetAttributes = {
+					BE682CCF23864376002B9454 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = BE682CCB23864376002B9454 /* Build configuration list for PBXProject "FactoryListView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE682CC723864376002B9454;
+			productRefGroup = BE682CD123864376002B9454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE682CCF23864376002B9454 /* FactoryListView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE682CCE23864376002B9454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE682CED23864459002B9454 /* Main.storyboard in Resources */,
+				BE682CE323864377002B9454 /* LaunchScreen.storyboard in Resources */,
+				BE682CE023864377002B9454 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE682CCC23864376002B9454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE682CFF23864920002B9454 /* BaseTableViewCell.m in Sources */,
+				BE682D08238665FE002B9454 /* BCollectionViewCell.m in Sources */,
+				BE682CDB23864376002B9454 /* ViewController.m in Sources */,
+				BE682D0B23866624002B9454 /* AViewModel.m in Sources */,
+				BE682CFC23864719002B9454 /* BaseCollectionViewHeader..m in Sources */,
+				BE682CD523864376002B9454 /* AppDelegate.m in Sources */,
+				BE682CE623864377002B9454 /* main.m in Sources */,
+				BE682CF7238645DF002B9454 /* BaseCollectionViewCell.m in Sources */,
+				BE682D05238665F6002B9454 /* ACollectionViewCell.m in Sources */,
+				BE682D18238672F9002B9454 /* BCollectionReusableView.m in Sources */,
+				BE682D15238672EE002B9454 /* ACollectionReusableView.m in Sources */,
+				BE682D02238663EB002B9454 /* BaseTableViewHeader.m in Sources */,
+				BE682D0E2386662D002B9454 /* BViewModel.m in Sources */,
+				BE682CF423864559002B9454 /* BaseViewModel.m in Sources */,
+				BE682CD823864376002B9454 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE682CE123864377002B9454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE682CE223864377002B9454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE682CE723864377002B9454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE682CE823864377002B9454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE682CEA23864377002B9454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J5JAT798T;
+				INFOPLIST_FILE = FactoryListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stj.FactoryListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE682CEB23864377002B9454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J5JAT798T;
+				INFOPLIST_FILE = FactoryListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stj.FactoryListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE682CCB23864376002B9454 /* Build configuration list for PBXProject "FactoryListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE682CE723864377002B9454 /* Debug */,
+				BE682CE823864377002B9454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE682CE923864377002B9454 /* Build configuration list for PBXNativeTarget "FactoryListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE682CEA23864377002B9454 /* Debug */,
+				BE682CEB23864377002B9454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE682CC823864376002B9454 /* Project object */;
+}
